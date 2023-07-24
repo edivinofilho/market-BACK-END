@@ -1,5 +1,13 @@
 import Products from "./interfaces";
 
-const market: Products[] = [];
+interface Market {
+    total: number;
+    products: Products[];
+}
+
+const market: Market = {
+    total: 0,
+    products: []
+};
 
 export default market;
