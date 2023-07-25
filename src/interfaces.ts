@@ -1,4 +1,9 @@
-interface Products {
+export interface Market {
+    total: number;
+    products: Products[];
+};
+
+export interface Products {
     id: number,
     name: string,
     price: number,
@@ -7,5 +12,3 @@ interface Products {
     calories: number | null | undefined,
     expirationDate: Date, 
 };
-
-export default Products;

@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import market from "./database";
-import Products from "./interfaces";
+import { Products } from "./interfaces";
 
 const createProduct = (req: Request, res: Response): Response => {
     const biggestId = market.products.reduce((biggestId, product) => {
@@ -43,7 +43,6 @@ const updateProduct = (req: Request, res: Response): Response => {
         ...market.products[productIndex],
         ...req.body
     }; 
-
     return res.status(200).json(market.products[productIndex]);
 };
 

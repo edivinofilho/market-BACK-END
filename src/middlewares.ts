@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from "express";
 import market from "./database";
-import Products from "./interfaces";
+import { Products } from "./interfaces";
 
 
 const productNameExistsMiddleware = (req: Request, res: Response, next: NextFunction) => {

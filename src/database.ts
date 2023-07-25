@@ -1,9 +1,4 @@
-import Products from "./interfaces";
-
-interface Market {
-    total: number;
-    products: Products[];
-}
+import { Market } from "./interfaces";
 
 const market: Market = {
     total: 0,
