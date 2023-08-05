@@ -10,9 +10,9 @@ The API provides various routes for managing products, including creating, listi
 
 - POST /products: Create and add a new product to the marketplace.
 - GET /products: List all products available on the market. It is also possible to filter the products by section (food or cleaning).
-- GET /products/:id: Retrieve information about a specific product based on its unique id.
-- PATCH /products/:id: Update the data of a product using its id.
-- DELETE /products/:id: Delete a product based on its id.
+- GET /products/:id Retrieve information about a specific product based on its unique id.
+- PATCH /products/:id Update the data of a product using its id.
+- DELETE /products/:id Delete a product based on its id.
 
 ## Technologies Used
 
