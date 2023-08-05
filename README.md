@@ -1,3 +1,34 @@
+# Smart Store REST API
+
+## Description
+
+This project creates a REST API to organize the stock of a startup in the testing process, which aims to become a network of autonomous markets (Smart Store). The Smart Store currently deals with two types of products: food and cleaning supplies.
+
+The API provides various routes for managing products, including creating, listing, updating, and deleting products.
+
+## Routes
+
+- POST /products: Create and add a new product to the marketplace.
+- GET /products: List all products available on the market. It is also possible to filter the products by section (food or cleaning).
+- GET /products/:id: Retrieve information about a specific product based on its unique id.
+- PATCH /products/:id: Update the data of a product using its id.
+- DELETE /products/:id: Delete a product based on its id.
+
+## Technologies Used
+
+- TypeScript
+
+## Credits
+This project is part of the Full Stack Developer course at Kenzie Academy Brasil (www.kenzie.com.br). All rights and intellectual property of this project belong to Kenzie Academy Brasil.
+
+I would like to extend my gratitude to the instructors' team at Kenzie for their support and guidance throughout the development of this project.
+
+## Contact
+edivinofilho@hotmail.com
+
+
+## How to Build Guidelines (Como Construir)
+
 # Mercado autônomo
 
 ## Introdução
